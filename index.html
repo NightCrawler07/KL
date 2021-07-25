@@ -1,0 +1,123 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kabir Leathers</title>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="showcase">
+    
+      <header class="header">
+      <div class="text">
+        <a href="contact.html">Contact Us</a>
+      </div>
+        <div class="lg"></div>
+        <h1>Kabir Leathers</h1>
+        
+      </header>
+      
+      <video class="bg" id="bg1" muted  autoplay loop >
+      <source src="bg2.mp4" type="video/mp4"> 
+      </video>
+      <a href="#Products" class="scroll-down">
+        <div class="mouse">
+          <span></span>
+        </div>
+        <div class="arrow">
+          <span></span>
+        </div>
+      </a>
+    </section>
+
+    <div class="products" id="Products">
+      <h1>Our Story- 25 Years</h1>
+      <div class="images">
+        <div class="product-img">
+       <div class="abimg"></div>
+
+        </div>
+        
+        </div>
+      </div>
+    </div>
+    </div>
+  <div class="slideshow-container" id="sld">
+    <div class="mySlides fade">
+    
+    <div class="imgp1"><h1>Innovative Product Development</h1></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="imgp2"><h1>Global sourcing Of leathers and trims</h1></div>
+  </div>
+
+  <div class="mySlides fade">
+  
+    <div class="imgp3"><h1>Efficent Production</h1></div>
+  </div>
+
+  <div class="mySlides fade">
+  
+    <div class="imgp4"><h1>Competitive Prices</h1></div>
+  </div>
+  <div class="mySlides fade">
+
+    <div class="imgp5"><h1>Environmentally Cautious</h1></div>
+  </div>
+
+  <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+   <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+  </div>
+  <div class="gif">
+    <div class="gif1"></div>  
+    <div class="gif2"></div>
+  </div>
+
+  <div class="showcase1">
+  <div class="mat">
+  <h2>Find us on</h2><a href="#" ><svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="black" class="bi bi-google" viewBox="0 0 16 16">
+  <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"></path>
+</svg></a>
+<h2>Plot no.- 17 
+Sector-6 Manesar, Gurgaon, Haryana</h2>
+<h3>+919999999999</h3>
+</div>
+<div class="text1">
+        <a href="contact.html">Contact Us</a>
+      </div>
+</div> 
+</div>
+    <script>
+    
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+  </body>
+</html>
