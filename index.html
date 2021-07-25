@@ -119,5 +119,16 @@ function showSlides() {
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 </script>
+<script>
+        const video = document.getElementById("bg-video");
+        video.playbackRate = 0.85;
+        // const top = document.getElementById("showcase");
+        document.body.addEventListener("mouseenter", (e) => {
+            video.play();
+        });
+        document.body.addEventListener("mouseleave", (e) => {
+            
+        });
+</script>
   </body>
 </html>
