@@ -272,6 +272,7 @@ img {vertical-align: middle;}
    width: 100%;
   height: 100%;
   padding-bottom: 100px;
+  border-radius:20px;
 }
 .imgp2{
   z-index: -1;
@@ -284,6 +285,7 @@ img {vertical-align: middle;}
    padding-bottom: 100px;
    width: 100%;
   height: 100%;
+  border-radius:20px;
 }
 .imgp3{
   z-index: -1;
@@ -296,6 +298,7 @@ img {vertical-align: middle;}
    width: 100%;
   height: 100%;
    padding-bottom: 100px;
+  border-radius:20px;
 }
 .imgp4{
   z-index: -1;
@@ -308,6 +311,7 @@ img {vertical-align: middle;}
    width: 100%;
   height: 100%;
    padding-bottom: 100px;
+  border-radius:20px;
 }
 .imgp5{
   z-index: -1;
@@ -320,6 +324,7 @@ img {vertical-align: middle;}
    width: 100%;
   height: 100%;
    padding-bottom: 100px;
+  border-radius:20px;
 }
 .imgp5 h1,.imgp4 h1,.imgp3 h1,.imgp2 h1,.imgp1 h1{
   z-index: 3;
