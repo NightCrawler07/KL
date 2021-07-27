@@ -339,42 +339,27 @@ img {vertical-align: middle;}
 
 .gif{
   align-items: center;
-  display: flex;
-  flex-wrap: wrap;
   z-index: 2;
   box-sizing: border-box;
-  justify-content:space-between;
   width: 100%;
   background-color: rgb(80, 71, 71);
   align-items: center;
   text-align: center;
-  padding: 25px;
+  padding: 20px;
 }
 
 .gif1{
-  flex-basis: 50%;
   z-index: 3;
-  background-image: url("2.gif");
+  background-image: url("11.gif");
    background-size: cover;
    background-repeat:no-repeat;
-   background-size:contain;
+   background-size:cover;
    background-position: center;
    margin:0; /* If you want no margin */
     /*if your want to padding */
-    padding:300px;
+padding: 390px;
+    border-radius: 20px;
 
-}
-.gif2{
-  flex-basis: 50%;
-  z-index: 3;
-  background-image: url("1.gif");
-   background-size: cover;
-   background-repeat:no-repeat;
-   background-size:contain;
-   background-position: center;
-   margin:0; /* If you want no margin */
-  padding:300px;
-    
 }
 
 .showcase1{
@@ -467,20 +452,23 @@ img {vertical-align: middle;}
   .lg{
     padding:30px;
   }
-  .gif{
-      display: block;
-      padding:10px;
-  }
+ 
   .text a,.showcase header{
     font-size: 1rem;
   }
   .products h1{
     font-size: 33px;
   }
-  .gif1,.gif2{
-    padding:100px;
-    border-radius: 0px;
-    background-position: center;
+ .gif{
+    padding: 10px;
+  }
+  
+  .gif1{
+     margin:0; /* If you want no margin */
+      /*if your want to padding */
+      padding: 290px;
+      border-radius: 10px;
+  
   }
   .slideshow-container{
     padding:10px;
