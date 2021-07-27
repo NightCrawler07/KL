@@ -473,7 +473,7 @@ border-radius:20px;
   .abimg{
     margin-top: 20px;
     padding:180px;
-    height: auto;
+    height: 100%;
     
 }
 @-webkit-keyframes fadeInRight{
