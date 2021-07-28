@@ -271,7 +271,7 @@ img {vertical-align: middle;}
   background-size: cover;
   background-color: rgb(133, 121, 121);
   z-index: 1;
-  padding:20px;
+  padding:10px;
   overflow-x: hidden;
   overflow-y:hidden ;
 }
@@ -339,7 +339,7 @@ img {vertical-align: middle;}
    background-position: center;
    padding:320px;
    width: 100%;
-  height: 96%;
+  height: 100%;
   border-radius:20px;
   padding-bottom: 50px;
 }
@@ -353,7 +353,7 @@ img {vertical-align: middle;}
    padding:320px;
    padding-bottom: 50px;
    width: 100%;
-   height: 96%;
+   height: 100%;
 border-radius:20px;
 }
 .imgp3{
@@ -378,7 +378,7 @@ border-radius:20px;
    background-position: center;
    padding:320px;
    width: 100%;
-   height: 96%;
+   height: 100%;
   padding-bottom: 50px;
 border-radius:20px;
 }
@@ -391,7 +391,7 @@ border-radius:20px;
    background-position: center;
    padding:320px;
    width: 100%;
-   height: 96%;
+   height: 100%;
   padding-bottom: 50px;
 border-radius:20px;
 }
