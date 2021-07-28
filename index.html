@@ -24,7 +24,7 @@
         
       </header>
       
-      <video class="bg" id="bg1" muted  autoplay loop >
+      <video class="bg" id="bg1" autoplay loop >
       <source src="bg.mp4" type="video/mp4"> 
       </video>
       <a href="#Products" class="scroll-down">
@@ -129,6 +129,17 @@ function showSlides() {
         setTimeout(function(){ spinnerWrapper.parentElement.removeChild(spinnerWrapper);}, 4000);
         
     });
+</script>
+<script>
+  
+        const video = document.getElementById("bg1");
+        // const top = document.getElementById("showcase");
+        document.body.addEventListener("mouseenter", (e) => {
+            video.play();
+        });
+        document.body.addEventListener("mouseleave", (e) => {
+        });
+    
 </script>
   </body>
 </html>
