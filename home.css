@@ -195,7 +195,7 @@
   background-repeat:no-repeat;
   background-position: center;
   background-size: contain;
-  padding:320px;
+  padding:300px;
 }
 .products h1 {
   font-family: adobe-Garamond-pro;
@@ -407,7 +407,7 @@ border-radius:20px;
    background-position: center;
    margin:0; /* If you want no margin */
     /*if your want to padding */
-  padding: 370px;
+  padding: 350px;
     border-radius: 20px;
 
 }
