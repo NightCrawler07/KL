@@ -27,7 +27,7 @@
       <video class="bg" id="bg1" autoplay loop >
       <source src="bg.mp4" type="video/mp4"> 
       </video>
-      <a href="#Products" class="scroll-down">
+      <a href="#sld" class="scroll-down">
         <div class="mouse">
           <span></span>
         </div>
@@ -36,19 +36,6 @@
         </div>
       </a>
     </section>
-
-    <div class="products" id="Products">
-      <h1>Our Story- 25 Years</h1>
-      <div class="images">
-        <div class="product-img">
-       <div class="abimg"></div>
-
-        </div>
-        
-        </div>
-      </div>
-    </div>
-    </div>
   <div class="slideshow-container" id="sld">
     <div class="mySlides fade">
     
@@ -84,6 +71,26 @@
   <div class="gif">
     <div class="gif1"></div>  
   </div>
+    <div class="products" id="Products">
+      <h1>Celebrating 25 Years</h1>
+      <div class="images">
+        <div class="product-img">
+       <div class="abimg">
+       <p>Kabir Leathers isn't just any leading business in producing leather goods, its an amalgamation of craft, effort and progress.
+      Transforming ideas to producing efficiently, this fresh contemporary elixir of a world of 
+      genuine leather products doesn't experiment with the ephemeral, it creates products with global sourcing 
+      of leather and trims that would last years .<br><br><br>
+      Driven by the urge to explore, we promise quality products with competitive prices.
+      For us, its never about being sustainable, but to be on this journey filled with experience and expertise, being environmentally cautious.
+       </p>
+       </div>
+
+        </div>
+        
+        </div>
+      </div>
+    </div>
+    </div>
 
   <div class="showcase1">
   <div class="mat">
@@ -99,6 +106,17 @@ Sector-6 Manesar, Gurgaon, Haryana</h2>
       </div>
 </div> 
 </div>
+<script>
+  
+        const video = document.getElementById("bg1");
+        // const top = document.getElementById("showcase");
+        document.body.addEventListener("mouseenter", (e) => {
+            video.play();
+        });
+        document.body.addEventListener("mouseleave", (e) => {
+        });
+    
+</script>
     <script>
     
 var slideIndex = 0;
@@ -130,16 +148,6 @@ function showSlides() {
         
     });
 </script>
-<script>
-  
-        const video = document.getElementById("bg1");
-        // const top = document.getElementById("showcase");
-        document.body.addEventListener("mouseenter", (e) => {
-            video.play();
-        });
-        document.body.addEventListener("mouseleave", (e) => {
-        });
-    
-</script>
+
   </body>
 </html>
