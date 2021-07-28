@@ -3,13 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="shortcut icon" href="lg.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kabir Leathers</title>
     <link rel="stylesheet" href="home.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
+  <div class='spinner-wrapper'>
+    <div class="spinner"></div>
+</div>
     <section class="showcase">
     
       <header class="header">
@@ -21,8 +24,8 @@
         
       </header>
       
-      <video class="bg" id="bg1" autoplay loop >
-      <source src="bg.mp4" type="video/mp4"> 
+      <video class="bg" id="bg1" muted  autoplay loop >
+      <source src="bg.m4v" type="video/m4v"> 
       </video>
       <a href="#Products" class="scroll-down">
         <div class="mouse">
@@ -53,7 +56,7 @@
   </div>
 
   <div class="mySlides fade">
-    <div class="imgp2"><h1>Global sourcing Of leathers</h1></div>
+    <div class="imgp2"><h1>Global sourcing Of leathers and trims</h1></div>
   </div>
 
   <div class="mySlides fade">
@@ -119,14 +122,13 @@ function showSlides() {
 }
 </script>
 <script>
-        const video = document.getElementById("bg1");
-        // const top = document.getElementById("showcase");
-        document.body.addEventListener("mouseenter", (e) => {
-            video.play();
-        });
-        document.body.addEventListener("mouseleave", (e) => {
-            
-        });
+    let spinnerWrapper = document.querySelector('.spinner-wrapper');
+
+    window.addEventListener('load', function () {
+        // spinnerWrapper.style.display = 'none';
+        setTimeout(function(){ spinnerWrapper.parentElement.removeChild(spinnerWrapper);}, 4000);
+        
+    });
 </script>
   </body>
 </html>
