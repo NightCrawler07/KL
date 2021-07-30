@@ -659,7 +659,7 @@ position: relative;
 .text a {
   display: inline-block;
   font-size: 1rem;
-  background-color: rgb(155, 155, 155);
+  background-color: #cac1b4;
   padding: 10px;
   text-decoration: none;
   margin-top: 10px;
