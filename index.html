@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kabir Leathers</title>
     <link rel="stylesheet" href="home.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
   <div class='spinner-wrapper'>
@@ -36,7 +35,8 @@
         </div>
       </a>
     </section>
-  <div class="slideshow-container" id="sld">
+  </div>
+<div class="slideshow-container" id="sld">
     <div class="mySlides fade">
     
     <div class="imgp1"><h1>Innovative Product Development</h1></div>
@@ -59,18 +59,13 @@
 
     <div class="imgp5"><h1>Environmentally Cautious</h1></div>
   </div>
-
-  <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-   <span class="dot" onclick="currentSlide(4)"></span>
-    <span class="dot" onclick="currentSlide(5)"></span>
-</div>
+    <button class="w3-button w3-black w3-display-left" id="l1" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" id="l2" onclick="plusDivs(1)">&#10095;</button>
   </div>
   <div class="gif">
     <div class="gif1"></div>  
   </div>
+  <div class="con">
     <div class="products" id="Products">
       <h1>Celebrating 25 Years</h1>
       <div class="images">
@@ -91,7 +86,7 @@
       </div>
     </div>
     </div>
-
+  </div>
   <div class="showcase1">
   <div class="mat">
   <h2>Find us on</h2><a href="#" ><svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="black" class="bi bi-google" viewBox="0 0 16 16">
@@ -117,26 +112,23 @@ Sector-6 Manesar, Gurgaon, Haryana</h2>
         });
     
 </script>
-    <script>
-    
-var slideIndex = 0;
-showSlides();
+  <script>
+var slideIndex = 1;
+showDivs(slideIndex);
 
-function showSlides() {
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  x[slideIndex-1].style.display = "block";  
 }
 </script>
 <script>
@@ -148,6 +140,16 @@ function showSlides() {
         
     });
 </script>
-
+<script>
+  
+        const video = document.getElementById("bg1");
+        // const top = document.getElementById("showcase");
+        document.body.addEventListener("mouseenter", (e) => {
+            video.play();
+        });
+        document.body.addEventListener("mouseleave", (e) => {
+        });
+    
+</script>
   </body>
 </html>
