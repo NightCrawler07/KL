@@ -345,7 +345,7 @@ button, [type=button], [type=reset], [type=submit] {
 .imgp1{
   z-index: -1;
   background-image: url("p1.jpg");
-  background-size: cover;
+  background-size:contain;
    background-repeat:no-repeat;
    display: block;
    background-position: center;
@@ -358,7 +358,7 @@ button, [type=button], [type=reset], [type=submit] {
 .imgp2{
   z-index: -1;
   background-image: url("p2.jpg");
-  background-size: cover;
+  background-size:contain;
    background-repeat:no-repeat;
    display: block;
    background-position: center;
@@ -371,7 +371,7 @@ box-shadow: 0px 0px 12px 3px rgb(12, 12, 12);
 .imgp3{
   z-index: -1;
   background-image: url("p3.jpg");
-  background-size: cover;
+ background-size:contain;
    background-repeat:no-repeat;
    display: block;
    background-position: center;
@@ -384,7 +384,7 @@ box-shadow: 0px 0px 12px 3px rgb(12, 12, 12);
 .imgp4{
   z-index: -1;
   background-image: url("p4.jpg");
-  background-size: cover;
+  background-size:contain;
    background-repeat:no-repeat;
    display: block;
    background-position: center;
@@ -397,7 +397,7 @@ box-shadow: 0px 0px 12px 3px rgb(12, 12, 12);
 .imgp5{
   z-index: -1;
   background-image: url("p5.jpg");
-  background-size:cover;
+  background-size:contain;
    background-repeat:no-repeat;
    display: block;
    padding:300px;
