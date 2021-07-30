@@ -435,7 +435,7 @@ box-shadow: 0px 0px 12px 3px rgb(12, 12, 12);
   font-family:"HELVETICA";
   font-size:50px;
   margin-top: 1em;
-  margin-left: 40%;
+  margin-left: 37%;
 }
 
 
@@ -793,11 +793,11 @@ position: relative;
 }
 .imgp3 h1,.imgp4 h1,.imgp5 h1{
   margin-left: 50%;
-  margin-top: 1em;
+  margin-top: 2em;
   font-size: 25px;
 }
   .imgp2 h1,.imgp1 h1{
-  margin-top: 1em;
+  margin-top: 2em;
   margin-left: 25%;
      font-size: 25px;
 }
