@@ -407,7 +407,7 @@ box-shadow: 0px 0px 12px 3px rgb(12, 12, 12);
   padding-bottom: 50px;
 box-shadow: 0px 0px 12px 3px rgb(12, 12, 12);
 }
-.imgp5 h1,.imgp4 h1,.imgp3 h1,.imgp2 h1,.imgp1 h1{
+.imgp5 h1,.imgp4 h1,.imgp3 h1{
   z-index: 3;
   top: 70%;
   left: 10%;
@@ -415,7 +415,17 @@ box-shadow: 0px 0px 12px 3px rgb(12, 12, 12);
   font-family:"HELVETICA";
   font-size:50px;
   margin-top: 1em;
-  margin-left: 55%;
+  margin-left: 50%;
+}
+.imgp2 h1,.imgp1 h1{
+  z-index: 3;
+  top: 70%;
+  left: 10%;
+  color:White;
+  font-family:"HELVETICA";
+  font-size:50px;
+  margin-top: 1em;
+  margin-left: 25%;
 }
 
 
@@ -771,9 +781,14 @@ position: relative;
   margin-left: 30%;
   font-size: 1em;
 }
-.imgp1 h1,.imgp2 h1,.imgp3 h1,.imgp4 h1,.imgp5 h1{
+.imgp3 h1,.imgp4 h1,.imgp5 h1{
   margin-left: 50%;
-  margin-top: 3em;
+  margin-top: 1em;
   font-size: 25px;
+}
+  .imgp2 h1,.imgp1 h1{
+  margin-top: 1em;
+  margin-left: 25%;
+     font-size: 25px;
 }
 }
