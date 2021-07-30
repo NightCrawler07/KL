@@ -773,5 +773,7 @@ position: relative;
 }
 .imgp1 h1,.imgp2 h1,.imgp3 h1,.imgp4 h1,.imgp5 h1{
   margin-left: 40%;
+  margin-top: 3em;
+  font-size: 30px;
 }
 }
