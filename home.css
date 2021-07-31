@@ -58,6 +58,9 @@
   }
 
 }
+#l11,#l22{
+  display:none;
+}
 
 .lg{
   background-image: url( "lg.png" );
@@ -445,7 +448,7 @@ button, [type=button], [type=reset], [type=submit] {
   position: absolute;
   z-index: 3;
   font-family:"adobe-gothic-std";
-  color: #454444 ;
+  color: #cac1b4;
   font-size:40px;
   margin-right: 60%;
   font-style: normal;
