@@ -116,7 +116,7 @@
   padding: 30px;
   z-index: 1;
   font-size: 1.8rem;
-  font-family: stencil-std,sans-serif;
+  font-family: "stencil-std",sans-serif;
 font-style: normal;                                        
   color: #cac1b4;
 }
@@ -516,7 +516,6 @@ button, [type=button], [type=reset], [type=submit] {
     /*if your want to padding */
    
 
-}
 }
 
 .showcase1{
