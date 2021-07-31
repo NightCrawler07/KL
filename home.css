@@ -213,12 +213,15 @@
 .abimg{
   padding:10px;
   margin-top: 20px;
+  padding-top: 15px;
   color:#454444;
   font-size: 28px ;
   font-family:"Calibri";
   display: table-cell;
   margin-left:20px;
   margin-right:20px;
+  padding-left: 180px;
+  padding-right: 180px;
   vertical-align: middle;
 }
 .abimg p{
@@ -230,11 +233,13 @@
   margin-top:10px;
   margin-left:20px;
     padding: 25px;
+    padding-top: 35px;
     text-transform: uppercase;
     color:rgb(34, 27, 27);
     font-family:"adobe-gothic-std";
     font-style: normal;
 }
+
 
 .images {
   padding-top: 20px;
