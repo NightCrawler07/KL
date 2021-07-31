@@ -632,7 +632,7 @@ button, [type=button], [type=reset], [type=submit] {
 
 }
 .text1 a{
-  margin-left: 50%;
+  margin-left: 40%;
 }
 }
 @media screen and (max-width: 1024px) {
@@ -785,22 +785,7 @@ position: relative;
   font-size: 1rem;;
 }
 
-.gif{
-  width: 100%;
-  height: 50%;
-  padding: 10px;
-}
 
-.gif1{
-   margin:0; /* If you want no margin */
-    /*if your want to padding */
-  padding-top: 200px;
-  padding-bottom: 100px;
-  padding-left: 200px;
-  padding-right: 100px;
-  background-position:10%;
-
-}
 /* Slideshow container */
 .slideshow-container {
   display:block ;
