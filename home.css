@@ -191,7 +191,7 @@
   padding-right:100px;
   padding-left: 100px;
   padding-bottom: 5px;
-  height: 90%;
+  height: 100%;
   background: linear-gradient(
     to right, 
     #ffffff 0%, 
@@ -220,10 +220,10 @@
 
 .abimg{
   padding:10px;
-  margin-top: 25px;
+  margin-top: 33px;
   padding-top: 15px;
   color:#454444;
-  font-size: 28px ;
+  font-size: 26px ;
   font-family:"Calibri";
   display: table-cell;
   margin-left:20px;
@@ -238,9 +238,9 @@
 .products h1 {
   z-index: 2;
   font-size: 56px;
-  margin-top:14px;
+  margin-top:25px;
   margin-left:20px;
-    padding: 25px;
+    padding: 20px;
     padding-top: 35px;
     text-transform: uppercase;
     color:rgb(34, 27, 27);
