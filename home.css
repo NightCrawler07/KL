@@ -22,6 +22,9 @@
   align-items: center;
   justify-content: center;
 }
+#l11,#l22{
+  display: none;
+}
 
 .spinner {
   position: relative;
@@ -57,9 +60,6 @@
       transform: rotate(360deg);
   }
 
-}
-#l11,#l22{
-  display:none;
 }
 
 .lg{
@@ -181,27 +181,35 @@
   transform: rotate(45deg);
   animation: arrow-down 1s alternate infinite;
 }
+.cp{
+  padding-bottom: 10px;
+  background-color: white;
+}
 .con{
   z-index: 1;
   padding-top:0px;
   padding-right:100px;
   padding-left: 100px;
-  height: 100%;
-  background-color: #fdfdfd;
-  
-}
-.products {
-  z-index: 2;
+  padding-bottom: 5px;
+  height: 90%;
   background: linear-gradient(
     to right, 
     #ffffff 0%, 
     #ffffff 50%, 
     #cac1b4 50%, 
-    #cac1b4 100%
+    #cac1b4 90%,
+    #ffffff 90%, 
+    #ffffff 100%
   );
+
+}
+.products {
+  z-index: 2;
+  
   align-items: center;
   text-align: center;
   padding: 10px;
+  padding-bottom: 0px;
   padding-left: 100px;
   padding-right: 100px;
   height: 90%;
@@ -212,7 +220,7 @@
 
 .abimg{
   padding:10px;
-  margin-top: 20px;
+  margin-top: 25px;
   padding-top: 15px;
   color:#454444;
   font-size: 28px ;
@@ -230,7 +238,7 @@
 .products h1 {
   z-index: 2;
   font-size: 56px;
-  margin-top:10px;
+  margin-top:14px;
   margin-left:20px;
     padding: 25px;
     padding-top: 35px;
@@ -239,7 +247,6 @@
     font-family:"adobe-gothic-std";
     font-style: normal;
 }
-
 
 .images {
   padding-top: 20px;
@@ -294,7 +301,6 @@ img {vertical-align: middle;}
   );
   z-index: 1;
   padding:20px;
-  padding-top: 5px;
   overflow-x: hidden;
   overflow-y:hidden ;
   margin-right:50px;
@@ -429,7 +435,7 @@ button, [type=button], [type=reset], [type=submit] {
   margin-left: 50px;
 }
 .mySlides h1{
-  padding: 50px;
+  padding: 30px;
   position: absolute;
   z-index: 3;
   font-family:"adobe-gothic-std";
@@ -493,8 +499,8 @@ button, [type=button], [type=reset], [type=submit] {
   background: linear-gradient(
     to right, 
     #ffffff 0%,
-    #ffffff 10%,  
-    #cac1b4 10%, 
+    #ffffff 20%,  
+    #cac1b4 20%, 
     #cac1b4 50%, 
     #ffffff 50%, 
     #ffffff 100%
@@ -619,7 +625,17 @@ button, [type=button], [type=reset], [type=submit] {
     opacity: 1;
   }
 }
+@media screen and (max-width: 1340px){
+  .abimg p{
+    margin-top: 10px;
+    font-size: 22px;
+    
 
+} 
+.text1 a{
+  margin-left: 50%;
+}
+}
 @media screen and (max-width: 1024px) {
   .lg{
     padding:30px;
@@ -672,6 +688,7 @@ button, [type=button], [type=reset], [type=submit] {
   font-size: 16px;
   
 }
+
 
 @keyframes slide {
   0% {
@@ -841,9 +858,7 @@ button, [type=button], [type=reset], [type=submit] {
   height: 90%;
   background-size:cover;
 }
-.con{
-  height: 130%;
-}
+
 .mySlides{
   margin-left: 20px;
 }
@@ -880,10 +895,9 @@ padding: 10px;
   margin-left: 45%;
 }
 #l22{
-  display: block;
-  margin-left: 8px;
+  margin-left: 5px;
 }
-#l2,#l1{
+#l2{
   display: none;
 }
 
