@@ -220,10 +220,10 @@
 
 .abimg{
   padding:10px;
-  margin-top: 33px;
+  margin-top: 10px;
   padding-top: 15px;
   color:#454444;
-  font-size: 26px ;
+  font-size: 28px ;
   font-family:"Calibri";
   display: table-cell;
   margin-left:20px;
@@ -238,9 +238,9 @@
 .products h1 {
   z-index: 2;
   font-size: 56px;
-  margin-top:25px;
+  margin-top:70px;
   margin-left:20px;
-    padding: 20px;
+    padding: 15px;
     padding-top: 35px;
     text-transform: uppercase;
     color:rgb(34, 27, 27);
@@ -249,7 +249,8 @@
 }
 
 .images {
-  padding-top: 20px;
+  padding-top: 10px;
+  margin-top: 10px;
 }
 .product-img {
   margin-top: 0px;
@@ -455,7 +456,7 @@ button, [type=button], [type=reset], [type=submit] {
   font-style: normal;
 }
 .mySlides h3{
-  padding: 40px;
+  padding: 50px;
   position: absolute;
   z-index: 3;
   font-family:"adobe-gothic-std";
@@ -632,6 +633,11 @@ button, [type=button], [type=reset], [type=submit] {
     
 
 } 
+.products h1 {
+ 
+  margin-top:40px;
+
+}
 .text1 a{
   margin-left: 50%;
 }
@@ -895,6 +901,7 @@ padding: 10px;
   margin-left: 45%;
 }
 #l22{
+  display: block;
   margin-left: 5px;
 }
 #l2{
