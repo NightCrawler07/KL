@@ -899,5 +899,17 @@ padding: 10px;
 #l2{
   display: none;
 }
+.gif{
 
+  padding:5px;
+  height: 300px;
+
+  
+}
+
+.gif1{
+  height: 90%;
+  width: 100%;
+
+}
 }
