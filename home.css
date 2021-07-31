@@ -506,7 +506,6 @@ button, [type=button], [type=reset], [type=submit] {
 
 .gif1{
   z-index: 3;
-  background-image: url("11.gif");
    background-size: contain;
    background-repeat:no-repeat;
    background-position: center;
