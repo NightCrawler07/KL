@@ -37,29 +37,31 @@
     </section>
   </div>
 <div class="slideshow-container" id="sld">
+<button class="w3-button w3-black w3-display-left" id="l1" onclick="plusDivs(-1)">&#10094;</button>
     <div class="mySlides fade">
+    <h1>Innovative Product Development</h1>
+    <div class="imgp1"></div>
+  </div>
+
+  <div class="mySlides fade">
+  <h2>Global sourcing Of leathers</h1>
+    <div class="imgp2"></div>
+  </div>
+
+  <div class="mySlides fade">
+  <h3>Efficent Production</h1>
+    <div class="imgp3"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <h4>Competitive Prices</h1>
+    <div class="imgp4"></div>
+  </div>
+  <div class="mySlides fade">
+  <h5>Environmentally Cautious</h1>
+    <div class="imgp5"></div>
+  </div>
     
-    <div class="imgp1"><h1>Innovative Product Development</h1></div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="imgp2"><h1>Global sourcing Of leathers</h1></div>
-  </div>
-
-  <div class="mySlides fade">
-  
-    <div class="imgp3"><h1>Efficent Production</h1></div>
-  </div>
-
-  <div class="mySlides fade">
-  
-    <div class="imgp4"><h1>Competitive Prices</h1></div>
-  </div>
-  <div class="mySlides fade">
-
-    <div class="imgp5"><h1>Environmentally Cautious</h1></div>
-  </div>
-    <button class="w3-button w3-black w3-display-left" id="l1" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-black w3-display-right" id="l2" onclick="plusDivs(1)">&#10095;</button>
   </div>
   <div class="gif">
@@ -74,7 +76,7 @@
        <p>Kabir Leathers isn't just any leading business in producing leather goods, its an amalgamation of craft, effort and progress.
       Transforming ideas to producing efficiently, this fresh contemporary elixir of a world of 
       genuine leather products doesn't experiment with the ephemeral, it creates products with global sourcing 
-      of leather and trims that would last years .<br><br><br>
+      of leather and trims that would last years .<br>
       Driven by the urge to explore, we promise quality products with competitive prices.
       For us, its never about being sustainable, but to be on this journey filled with experience and expertise, being environmentally cautious.
        </p>
@@ -136,7 +138,7 @@ function showDivs(n) {
 
     window.addEventListener('load', function () {
         // spinnerWrapper.style.display = 'none';
-        setTimeout(function(){ spinnerWrapper.parentElement.removeChild(spinnerWrapper);}, 4000);
+        setTimeout(function(){ spinnerWrapper.parentElement.removeChild(spinnerWrapper);}, 3000);
         
     });
 </script>
@@ -150,6 +152,16 @@ function showDivs(n) {
         document.body.addEventListener("mouseleave", (e) => {
         });
     
+</script>
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'nfb1eok',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
 </script>
   </body>
 </html>
