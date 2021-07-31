@@ -646,7 +646,6 @@ button, [type=button], [type=reset], [type=submit] {
   
 .products {
   z-index: 2;
-  background-color: #fafafa ;
   align-items: center;
   text-align: center;
   padding: 10px;
