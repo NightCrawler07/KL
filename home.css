@@ -455,7 +455,7 @@ button, [type=button], [type=reset], [type=submit] {
   font-style: normal;
 }
 .mySlides h3{
-  padding: 50px;
+  padding: 40px;
   position: absolute;
   z-index: 3;
   font-family:"adobe-gothic-std";
