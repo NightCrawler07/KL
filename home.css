@@ -40,7 +40,7 @@
 .spinner:before {
   width: 100%;
   height: 100%;
-  background-image:linear-gradient(90deg, #ff00cc 0%,#333399 100% );
+  background-image:linear-gradient(90deg, #cac1b4 0%,#454444 100% );
   animation: spin .5s infinite linear;
 }
 .spinner:after {
@@ -180,7 +180,7 @@
 }
 .con{
   z-index: 1;
-  padding-top:50px;
+  padding-top:0px;
   padding-right:100px;
   padding-left: 100px;
   height: 100%;
@@ -191,10 +191,10 @@
   z-index: 2;
   background: linear-gradient(
     to right, 
-    #cac1b4 0%, 
-    #cac1b4 50%, 
+    #ffffff 0%, 
     #ffffff 50%, 
-    #ffffff 100%
+    #cac1b4 50%, 
+    #cac1b4 100%
   );
   align-items: center;
   text-align: center;
@@ -211,7 +211,7 @@
   padding:10px;
   margin-top: 20px;
   color:#454444;
-  font-size: 24px ;
+  font-size: 28px ;
   font-family:"Calibri";
   display: table-cell;
   margin-left:20px;
@@ -237,7 +237,7 @@
   padding-top: 20px;
 }
 .product-img {
-  margin-top: 10px;
+  margin-top: 0px;
   align-items: center;
   text-align: center;
   padding:10px;
@@ -280,14 +280,16 @@ img {vertical-align: middle;}
     #ffffff 0%, 
     #ffffff 50%,
     #cac1b4 50%, 
-    #cac1b4 100%
+    #cac1b4 94%,
+    #ffffff 94%, 
+    #ffffff 100%
   );
   z-index: 1;
-  padding:10px;
-  padding-right: 10px;
-  padding-top: 15px;
+  padding:20px;
+  padding-top: 5px;
   overflow-x: hidden;
   overflow-y:hidden ;
+  margin-right:50px;
 }
 
 /* Fading animation */
@@ -483,8 +485,8 @@ button, [type=button], [type=reset], [type=submit] {
   background: linear-gradient(
     to right, 
     #ffffff 0%,
-    #ffffff 20%,  
-    #cac1b4 20%, 
+    #ffffff 10%,  
+    #cac1b4 10%, 
     #cac1b4 50%, 
     #ffffff 50%, 
     #ffffff 100%
@@ -570,10 +572,11 @@ button, [type=button], [type=reset], [type=submit] {
     background-position: 0 0;
   }
 }
-
+#l11{
+  display: none;
+}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
 }
 
 
@@ -619,15 +622,6 @@ button, [type=button], [type=reset], [type=submit] {
   .products h1{
     font-size: 33px;
   }
-
-  .imgp1,.imgp2,.imgp3,.imgp4,.imgp5{
-    padding:100px;
-    width: 100%;
-    height: 100%;
-  }
-  .slideshow-container {
-    padding:39px;
-  }
   
 .products {
   z-index: 2;
@@ -637,15 +631,14 @@ button, [type=button], [type=reset], [type=submit] {
   padding: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  border-radius: 10px;
   
   
 }
 
 .abimg{
   padding:10px;
-  margin-top: 20px;
-  color:rgb(8, 1, 1);
+  margin-top: 10px;
+  color:#454444;
   font-size: 30px ;
   
   display: table-cell;
@@ -671,9 +664,7 @@ button, [type=button], [type=reset], [type=submit] {
   font-size: 16px;
   
 }
-.images {
-  padding-top: 10px;
-}
+
 @keyframes slide {
   0% {
     background-position: 0 0;
@@ -758,23 +749,14 @@ position: relative;
   transform: rotate(45deg);
   animation: arrow-down 1s alternate infinite;
 }
-.map{
-  padding: 0;
-}
-.formout{
-  display: block;
-}
-.slideshow-container{
-  height: 65%;
-  padding-left: 5px;
-  padding-right: 5px;
-}
+
 .map h2{
   font-size:23px ;
 }
 .text1 a{
   font-size: 1rem;
   padding:10px;
+  margin-left: 30%;
 }
 .mat h2{
   font-size: 1rem;;
@@ -796,41 +778,104 @@ position: relative;
   background-position:10%;
 
 }
-.w3-btn, .w3-button {
-  border: none;
-  display: inline-block;
+/* Slideshow container */
+.slideshow-container {
+  display:block ;
+  z-index: -1;
+  box-sizing:border-box;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(
+    to right, 
+    #ffffff 0%, 
+    #ffffff 50%,
+    #cac1b4 50%, 
+    #cac1b4 94%,
+    #ffffff 94%, 
+    #ffffff 100%
+  );
+  z-index: 1;
+  padding:10px;
+  padding-top: 5px;
+  overflow-x: hidden;
+  overflow-y:hidden ;
+  margin-right:10px;
+}
+-btn, .w3-button {
   padding: 7px;
-  margin-top: 5px;
-  
-  overflow: hidden;
-  text-decoration: none;
-  color: inherit;
-  background-color: inherit;
-  text-align: center;
-  cursor: pointer;
-  white-space: nowrap;
-  border-radius: 11px;
+  border-radius: 50%;
   z-index: 5;
   
 }
 #l1{
-  margin-left: 45%;
+  display: none;
 }
 #l2{
+  display: block;
+}
+.mySlides{
+  flex-basis: 95%;
+}
+button, [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+.fadeInRight{
+  animation-name: slide;
+  animation-duration: 10s;
+  animation-direction: normal;
+  animation-timing-function: ease;
+   animation-iteration-count: infinite;
+}
+.imgp1,.imgp2,.imgp3,.imgp4,.imgp5{
+  padding:100px;
+  padding-bottom: 30px;
+  height: 90%;
+  background-size:cover;
+}
+.con{
+  height: 130%;
+}
+.mySlides{
+  margin-left: 20px;
+}
+.mySlides h1{
+  font-size:16px;
+padding: 10px;
+  
+}
+.mySlides h2{
+  font-size:16px;
+  padding: 10px;
+    
+}
+.mySlides h3{
+  font-size:16px;
+  padding: 10px;
+    
+}
+.mySlides h4{
+  font-size:16px;
+padding: 10px;
+  
+}
+.mySlides h5{
+  font-size:16px;
+  padding: 10px;
+    
+}
+.bb{
+  display: flex;
+}
+#l11{
+  display: block;
+  margin-left: 45%;
+}
+#l22{
   margin-left: 5px;
 }
-.text1 a {
-  margin-left: 30%;
-  font-size: 1em;
+#l2{
+  display: none;
 }
-.imgp3 h1,.imgp4 h1,.imgp5 h1{
-  margin-left: 50%;
-  margin-top: 2em;
-  font-size: 25px;
-}
-  .imgp2 h1,.imgp1 h1{
-  margin-top: 2em;
-  margin-left: 25%;
-     font-size: 25px;
-}
+
 }
