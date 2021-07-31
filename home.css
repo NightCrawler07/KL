@@ -1,6 +1,7 @@
 /*! FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url(//db.onlinewebfonts.com/c/520994a2ecf772a7c7ac2dde1f144903?family=stencilla);
 
 /* ! */
 * {
@@ -115,6 +116,7 @@
   padding: 30px;
   z-index: 1;
   font-size: 1.8rem;
+  font-family:"stencilla";
   color: #cac1b4;
 }
 
