@@ -487,9 +487,9 @@ button, [type=button], [type=reset], [type=submit] {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  padding:44px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding:60px;
+  padding-left: 10px;
+  padding-right: 10px;
   background: linear-gradient(
     to right, 
     #ffffff 0%,
@@ -499,22 +499,23 @@ button, [type=button], [type=reset], [type=submit] {
     #ffffff 50%, 
     #ffffff 100%
   );
+  background-size:contain;
   align-items: center;
   text-align: center;
   
 }
 
 .gif1{
-  z-index: 3;
-   background-size: contain;
+  z-index: 4;
+  height: 100%;
+   background-size:contain;
    background-repeat:no-repeat;
    background-position: center;
    margin:0; /* If you want no margin */
     /*if your want to padding */
-    height: 100%;
-    width: 100%;
    
 
+}
 }
 
 .showcase1{
@@ -524,7 +525,7 @@ button, [type=button], [type=reset], [type=submit] {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(248, 247, 247);;
+  background-color: rgb(248, 247, 247);
 }
 .text1{
   flex-basis: 50%;
