@@ -625,13 +625,18 @@ button, [type=button], [type=reset], [type=submit] {
     opacity: 1;
   }
 }
-@media screen and (max-width: 1340px){
+@media screen and (max-width: 1366px){
   .abimg p{
     margin-top: 10px;
     font-size: 22px;
     
 
 } 
+  .abimg{
+  padding-left: 90px;
+  padding-right: 90px;
+
+}
 .products h1 {
  
   margin-top:40px;
