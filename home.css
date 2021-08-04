@@ -11,12 +11,9 @@
   font-family: "Titillium Web",'Montserrat',"adobe-gothic-std", sans-serif;
   scroll-behavior: smooth;
 }
-@font-face {font-family: "Comaro"; src: url("//db.onlinewebfonts.com/t/01f05dd1309b82a69713198ffdd2b336.eot");
- src: url("//db.onlinewebfonts.com/t/01f05dd1309b82a69713198ffdd2b336.eot?#iefix") format("embedded-opentype"),
-  url("//db.onlinewebfonts.com/t/01f05dd1309b82a69713198ffdd2b336.woff2") format("woff2"), 
-   url("//db.onlinewebfonts.com/t/01f05dd1309b82a69713198ffdd2b336.woff") format("woff"), 
-   url("//db.onlinewebfonts.com/t/01f05dd1309b82a69713198ffdd2b336.ttf") format("truetype"),
-  url("//db.onlinewebfonts.com/t/01f05dd1309b82a69713198ffdd2b336.svg#Comaro") format("svg"); }
+@font-face {font-family: "Comaro"; 
+  src: url("Comaro.ttf");
+}
 .spinner-wrapper{
   width: 100%;
   height: 100%;
@@ -114,7 +111,7 @@
   align-items: center;
 }
 .text h1{
-  font-family: 'Comaro';
+  font-family: "Comaro";
 }
 
 .showcase header {
