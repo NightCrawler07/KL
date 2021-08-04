@@ -12,9 +12,9 @@
   scroll-behavior: smooth;
 }
 @font-face {font-family: "Comaro"; 
-  src: url("Comaro.ttf") format('ttf');
+  src: url("Comaro.ttf")format('ttf');
   font-weight: normal;
-    font-style: normal;
+  font-style: normal;
 }
 .spinner-wrapper{
   width: 100%;
