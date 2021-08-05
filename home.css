@@ -654,7 +654,7 @@ button, [type=button], [type=reset], [type=submit] {
   margin-left: 40%;
 }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 480px) {
   .lg{
     padding:30px;
   }
