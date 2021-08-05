@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="home.css" />
     <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
   </head>
-  <body>
+  <body onpageshow="playVideo()">
   <div class='spinner-wrapper'>
     <div class="spinner"></div>
 </div>
@@ -132,6 +132,9 @@ Sector-6 ,IMT Manesar, Gurugram-122050(Haryana)</h2>
         });
         document.body.addEventListener("mouseleave", (e) => {
         });
+  function playVideo(){
+    document.getElementById("bg2").play();
+}
     
 </script>
   <script>
