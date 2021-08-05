@@ -776,7 +776,7 @@ position: relative;
   z-index: -1;
   box-sizing:border-box;
   width: 100%;
-  height: 50vh;
+  height: 43vh;
   background: linear-gradient(
     to right, 
     #ffffff 0%, 
@@ -830,27 +830,27 @@ button, [type=button], [type=reset], [type=submit] {
 }
 .mySlides h1{
   font-size:16px;
-padding: 10px;
+padding: 15px;
   
 }
 .mySlides h2{
   font-size:16px;
-  padding: 10px;
+  padding: 15px;
     
 }
 .mySlides h3{
   font-size:16px;
-  padding: 10px;
+  padding: 15px;
     
 }
 .mySlides h4{
   font-size:16px;
-padding: 10px;
+padding: 15px;
   
 }
 .mySlides h5{
   font-size:16px;
-  padding: 10px;
+  padding: 15px;
     
 }
 .bb{
@@ -902,6 +902,7 @@ padding: 10px;
 }
 .text1 a {
   margin-left:25%;
+  font-size:0.7em;
 }
 
 }
