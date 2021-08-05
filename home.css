@@ -620,7 +620,7 @@ button, [type=button], [type=reset], [type=submit] {
 }
 }
 @media screen and (max-width: 1024px) {
-  .lg{
+ .lg{
     padding:30px;
   }
   .text a,.showcase header{
@@ -819,38 +819,38 @@ button, [type=button], [type=reset], [type=submit] {
    animation-iteration-count: infinite;
 }
 .imgp1,.imgp2,.imgp3,.imgp4,.imgp5{
-  padding:100px;
-  height:50vh;
+  padding:10px;
+  height:38vh;
   padding-bottom: 10px;
-  background-size:contain;
+  background-size:cover;
 }
 
 .mySlides{
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .mySlides h1{
   font-size:16px;
-padding: 15px;
+padding: 10px;
   
 }
 .mySlides h2{
   font-size:16px;
-  padding: 15px;
+  padding: 10px;
     
 }
 .mySlides h3{
   font-size:16px;
-  padding: 15px;
-    
+  padding: 10px;
+  color: #cac1b4 ;
 }
 .mySlides h4{
   font-size:16px;
-padding: 15px;
+  padding: 10px;
   
 }
 .mySlides h5{
   font-size:16px;
-  padding: 15px;
+  padding: 10px;
     
 }
 .bb{
@@ -882,15 +882,14 @@ padding: 15px;
     #ffffff 50%, 
     #ffffff 100%
   );
-  background-size:contain;
-  align-items: center;
+  background-size:cover;
   text-align: center;
   
 }
 
 .gif1{
   z-index: 4;
-  height: 50vh;
+  height: 40vh;
    width: 100%;
    background-size:contain;
    background-repeat:no-repeat;
