@@ -820,7 +820,8 @@ button, [type=button], [type=reset], [type=submit] {
 }
 .imgp1,.imgp2,.imgp3,.imgp4,.imgp5{
   padding:100px;
-  padding-bottom: 30px;
+  height:50vh;
+  padding-bottom: 10px;
   background-size:contain;
 }
 
@@ -889,8 +890,8 @@ padding: 10px;
 
 .gif1{
   z-index: 4;
-  height: 40vh;
-  width:80%;
+  height: 50vh;
+   width: 100%;
    background-size:contain;
    background-repeat:no-repeat;
    background-position: center;
@@ -899,11 +900,8 @@ padding: 10px;
    
 
 }
-.mat{
-  font-size: 1em;
-}
 .text1 a {
-  margin-left:30%;
+  margin-left:25%;
 }
 
 }
