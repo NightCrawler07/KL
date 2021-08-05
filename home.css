@@ -181,26 +181,13 @@
   transform: rotate(45deg);
   animation: arrow-down 1s alternate infinite;
 }
-.cp{
-  padding-bottom: 10px;
-  background-color: white;
-}
+
 .con{
   z-index: 1;
   padding-top:0px;
-  padding-right:100px;
-  padding-left: 100px;
-  padding-bottom: 5px;
-  height: 100%;
-  background: linear-gradient(
-    to right, 
-    #ffffff 0%, 
-    #ffffff 50%, 
-    #cac1b4 50%, 
-    #cac1b4 90%,
-    #ffffff 90%, 
-    #ffffff 100%
-  );
+
+  height: 100vh;
+  background: white;
 
 }
 .products {
@@ -210,12 +197,7 @@
   text-align: center;
   padding: 10px;
   padding-bottom: 0px;
-  padding-left: 100px;
-  padding-right: 100px;
-  height: 90%;
-
-  
-  
+  height: 100vh;
 }
 
 .abimg{
@@ -226,10 +208,10 @@
   font-size: 24px ;
   font-family:"Calibri";
   display: table-cell;
-  margin-left:20px;
-  margin-right:20px;
-  padding-left: 180px;
-  padding-right: 180px;
+  margin-left:10px;
+  margin-right:10px;
+  padding-left: 30%;
+  padding-right: 30%;
   vertical-align: middle;
 }
 .abimg p{
@@ -288,8 +270,7 @@ img {vertical-align: middle;}
   display:flex ;
   z-index: -1;
   box-sizing:border-box;
-  width: 100%;
-  height: 100%;
+  height: 100vh;
   background-size: cover;
   background: linear-gradient(
     to right, 
@@ -300,11 +281,9 @@ img {vertical-align: middle;}
     #ffffff 94%, 
     #ffffff 100%
   );
-  z-index: 1;
   padding:20px;
   overflow-x: hidden;
   overflow-y:hidden ;
-  margin-right:50px;
 }
 
 /* Fading animation */
@@ -492,8 +471,7 @@ button, [type=button], [type=reset], [type=submit] {
   align-items: center;
   z-index: 2;
   box-sizing: border-box;
-  width: 100%;
-  height: 100%;
+  height: 100vh;
   padding:60px;
   padding-left: 10px;
   padding-right: 10px;
@@ -625,7 +603,7 @@ button, [type=button], [type=reset], [type=submit] {
     opacity: 1;
   }
 }
-@media screen and (max-width: 1340px){
+@media screen and (max-width: 1300px){
   .abimg p{
     margin-top: 10px;
     font-size: 22px;
