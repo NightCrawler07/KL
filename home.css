@@ -786,7 +786,7 @@ position: relative;
     #ffffff 94%, 
     #ffffff 100%
   );
-  padding:10px;
+  padding:5px;
   padding-top: 5px;
   overflow-x: hidden;
   overflow-y:hidden ;
@@ -821,7 +821,6 @@ button, [type=button], [type=reset], [type=submit] {
 .imgp1,.imgp2,.imgp3,.imgp4,.imgp5{
   padding:100px;
   padding-bottom: 30px;
-  height: 50vh;
   background-size:contain;
 }
 
@@ -899,6 +898,12 @@ padding: 10px;
     /*if your want to padding */
    
 
+}
+.mat{
+  font-size: 1em;
+}
+.text1 a {
+  margin-left:30%;
 }
 
 }
