@@ -35,7 +35,7 @@
       <video class="bg" id="bg2" autoplay loop >
       <source src="bg.mp4" type="video/mp4"> 
       </video>
-      <a href="#sld" class="scroll-down">
+      <a href="#sld" class="scroll-down" onclick='playVideo()'>
         <div class="mouse">
           <span></span>
         </div>
@@ -132,10 +132,14 @@ Sector-6 ,IMT Manesar, Gurugram-122050(Haryana)</h2>
         });
         document.body.addEventListener("mouseleave", (e) => {
         });
+
+    
+</script>
+<script type='text/javascript'>
   function playVideo(){
     document.getElementById("bg2").play();
 }
-    
+
 </script>
   <script>
 var slideIndex = 1;
