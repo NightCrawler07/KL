@@ -32,7 +32,7 @@
         
       </header>
       
-      <video class="bg" id="bg1" autoplay loop >
+      <video class="bg" id="bg2" autoplay loop >
       <source src="bg.mp4" type="video/mp4"> 
       </video>
       <a href="#sld" class="scroll-down">
@@ -78,7 +78,7 @@
   <button class="w3-button w3-black w3-display-right" id="l2" onclick="plusDivs(1)">&#10095;</button>
   </div>
     <div class="gif">
-    <div class="gif1"><video class="gif1"  muted autoplay loop >
+    <div class="gif1"><video class="gif1"  id="bg1" autoplay loop >
       <source src="111.mp4" type="video/mp4"> 
       </video></div>  
   </div>
@@ -123,10 +123,12 @@ Sector-6 ,IMT Manesar, Gurugram-122050(Haryana)</h2>
 </div>
 <script>
   
-        const video1 = document.getElementById("bg1");
+        const video1 = document.getElementById("#bg1");
+         const video2 = document.getElementById("#bg2");
         // const top = document.getElementById("showcase");
         document.body.addEventListener("mouseenter", (e) => {
             video1.play();
+          video2.play();
         });
         document.body.addEventListener("mouseleave", (e) => {
         });
