@@ -821,7 +821,7 @@ button, [type=button], [type=reset], [type=submit] {
 .imgp1,.imgp2,.imgp3,.imgp4,.imgp5{
   padding:100px;
   padding-bottom: 30px;
-  height: 90vh;
+  height: 50vh;
   background-size:contain;
 }
 
@@ -890,7 +890,8 @@ padding: 10px;
 
 .gif1{
   z-index: 4;
-  height: 30vh;
+  height: 40vh;
+  width:80%;
    background-size:contain;
    background-repeat:no-repeat;
    background-position: center;
