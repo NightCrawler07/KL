@@ -10,7 +10,7 @@
   font-family: "Titillium Web",'Montserrat',"adobe-gothic-std", sans-serif;
   scroll-behavior: smooth;
 }
-
+@font-face {font-family: "Comaro"; src: url("//db.onlinewebfonts.com/t/3ba6e995d900d9094f9ffdbcd59eb709.eot"); src: url("//db.onlinewebfonts.com/t/3ba6e995d900d9094f9ffdbcd59eb709.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3ba6e995d900d9094f9ffdbcd59eb709.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3ba6e995d900d9094f9ffdbcd59eb709.woff") format("woff"), url("//db.onlinewebfonts.com/t/3ba6e995d900d9094f9ffdbcd59eb709.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3ba6e995d900d9094f9ffdbcd59eb709.svg#Comaro") format("svg"); }
 .spinner-wrapper{
   width: 100%;
   height: 100%;
